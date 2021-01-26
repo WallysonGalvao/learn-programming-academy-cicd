@@ -1,0 +1,6 @@
+module Pods_inflationCalc {
+  umbrella header "Pods-inflationCalc-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_inflationCalc_inflationCalcTests {
+  umbrella header "Pods-inflationCalc-inflationCalcTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
