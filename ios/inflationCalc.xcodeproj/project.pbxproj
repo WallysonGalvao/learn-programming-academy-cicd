@@ -17,6 +17,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* inflationCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* inflationCalcTests.m */; };
 		4CB57A48A94726A3C631A2FC /* libPods-inflationCalc-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6F6C61A0BCDB153FFF6569 /* libPods-inflationCalc-tvOS.a */; };
+		4D39CCD025CB838000A119E1 /* inflationCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39CCCF25CB838000A119E1 /* inflationCalcUITests.m */; };
 		4D77C25025C0E27E00B28FC5 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D77C24F25C0E27E00B28FC5 /* AppCenter-Config.plist */; };
 		61DD512A964CB74955B2ABAD /* libPods-inflationCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB663E57809BBF6A89B67EB2 /* libPods-inflationCalc.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -38,6 +39,13 @@
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "inflationCalc-tvOS";
 		};
+		4D39CCD225CB838000A119E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = inflationCalc;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +63,9 @@
 		2D02E4901E0B4A5D006451C7 /* inflationCalc-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inflationCalc-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E91320EFD3AB4ECD2C9FA20 /* Pods-inflationCalc-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inflationCalc-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-inflationCalc-tvOSTests/Pods-inflationCalc-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F5167480864F8E32A896F57 /* libPods-inflationCalc-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inflationCalc-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D39CCCD25CB838000A119E1 /* inflationCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inflationCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D39CCCF25CB838000A119E1 /* inflationCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inflationCalcUITests.m; sourceTree = "<group>"; };
+		4D39CCD125CB838000A119E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D77C24F25C0E27E00B28FC5 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		5F4A41B15823ABE92DB9C7B1 /* Pods-inflationCalc-inflationCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inflationCalc-inflationCalcTests.release.xcconfig"; path = "Target Support Files/Pods-inflationCalc-inflationCalcTests/Pods-inflationCalc-inflationCalcTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D043BA8C05D394A7B06003A /* Pods-inflationCalc-inflationCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inflationCalc-inflationCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-inflationCalc-inflationCalcTests/Pods-inflationCalc-inflationCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +112,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				09AA6A75BA8EC823995BF96D /* libPods-inflationCalc-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D39CCCA25CB838000A119E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +169,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D39CCCE25CB838000A119E1 /* inflationCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D39CCCF25CB838000A119E1 /* inflationCalcUITests.m */,
+				4D39CCD125CB838000A119E1 /* Info.plist */,
+			);
+			path = inflationCalcUITests;
+			sourceTree = "<group>";
+		};
 		5ADC73497696ED44713496E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +207,7 @@
 				13B07FAE1A68108700A75B9A /* inflationCalc */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* inflationCalcTests */,
+				4D39CCCE25CB838000A119E1 /* inflationCalcUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5ADC73497696ED44713496E5 /* Pods */,
@@ -196,6 +224,7 @@
 				00E356EE1AD99517003FC87E /* inflationCalcTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* inflationCalc-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* inflationCalc-tvOSTests.xctest */,
+				4D39CCCD25CB838000A119E1 /* inflationCalcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,6 +312,24 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* inflationCalc-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4D39CCCC25CB838000A119E1 /* inflationCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D39CCD625CB838000A119E1 /* Build configuration list for PBXNativeTarget "inflationCalcUITests" */;
+			buildPhases = (
+				4D39CCC925CB838000A119E1 /* Sources */,
+				4D39CCCA25CB838000A119E1 /* Frameworks */,
+				4D39CCCB25CB838000A119E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D39CCD325CB838000A119E1 /* PBXTargetDependency */,
+			);
+			name = inflationCalcUITests;
+			productName = inflationCalcUITests;
+			productReference = 4D39CCCD25CB838000A119E1 /* inflationCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,6 +354,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
+					4D39CCCC25CB838000A119E1 = {
+						CreatedOnToolsVersion = 12.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "inflationCalc" */;
@@ -326,6 +378,7 @@
 				00E356ED1AD99517003FC87E /* inflationCalcTests */,
 				2D02E47A1E0B4A5D006451C7 /* inflationCalc-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* inflationCalc-tvOSTests */,
+				4D39CCCC25CB838000A119E1 /* inflationCalcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,6 +410,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D39CCCB25CB838000A119E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,6 +653,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D39CCC925CB838000A119E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D39CCD025CB838000A119E1 /* inflationCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -605,6 +673,11 @@
 			isa = PBXTargetDependency;
 			target = 2D02E47A1E0B4A5D006451C7 /* inflationCalc-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		4D39CCD325CB838000A119E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* inflationCalc */;
+			targetProxy = 4D39CCD225CB838000A119E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -806,6 +879,56 @@
 			};
 			name = Release;
 		};
+		4D39CCD425CB838000A119E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = inflationCalcUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpa.inflationCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inflationCalc;
+			};
+			name = Debug;
+		};
+		4D39CCD525CB838000A119E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = inflationCalcUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpa.inflationCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inflationCalc;
+			};
+			name = Release;
+		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -954,6 +1077,15 @@
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
 				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D39CCD625CB838000A119E1 /* Build configuration list for PBXNativeTarget "inflationCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D39CCD425CB838000A119E1 /* Debug */,
+				4D39CCD525CB838000A119E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
